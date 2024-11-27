@@ -4,9 +4,9 @@ const AuthLayout = ({ children }) => {
   return (
     <>
       <div className="flex min-h-screen">
-        <main className="flex-1 w-[45%]">{children}</main>
+        <main className="w-full flex flex-col justify-center mx-10  md:justify-start md:w-[50%] md:mt-20">{children}</main>
 
-        <div className="flex flex-col bg-indigo-500 w-[55%] pt-20">
+        <div className="md:flex flex-col bg-indigo-500 w-[50%] hidden">
           <h1
             className={
               "text-5xl font-extrabold textGradient2 sm:text-6xl md:text-7xl text-center "
@@ -19,7 +19,6 @@ const AuthLayout = ({ children }) => {
           </p>
         </div>
       </div>
-    
     </>
   );
 };

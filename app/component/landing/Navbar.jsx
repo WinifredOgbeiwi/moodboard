@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link href={"/login"}>
           <Button text="Sign In" full={true} dark={false} />
         </Link>
-        <Link href={"/login"}>
+        <Link href={"/register"}>
           <Button text="Sign Up" full={true} dark={true} />
         </Link>
       </nav>
