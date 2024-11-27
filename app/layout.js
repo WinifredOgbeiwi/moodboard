@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins} antialiased w-full max-w-[1400px] text-sm sm:text-base min-h-screen flex flex-col`}
+        className={`${poppins} antialiased w-full max-w-[1400px] text-sm sm:text-base m-auto min-h-screen flex flex-col`}
       >
         {children}
       </body>
