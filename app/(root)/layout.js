@@ -1,11 +1,13 @@
 import React from "react";
+import Navbar from "../component/landing/Navbar";
+import Footer from "../component/landing/Footer";
 
 const HomeLayout = ({ children }) => {
   return (
     <>
-      <header className="">HOME HEADER </header>
+     <Navbar/>
       <main className="flex-1">{children}</main>
-      <footer className="">HOME FOOTER</footer>
+    <Footer/>
     </>
   );
 };
