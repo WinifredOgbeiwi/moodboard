@@ -32,7 +32,7 @@ const LoginPage = () => {
         type="password"
       />
 
-      <Button text="submit" full dark/>
+      <Button text="submit" full dark />
 
       <div className="flex justify-between w-full max-[900px]:flex-col max-[900px]:justify-center">
         <Link className="text-primary" href="/login">
@@ -41,7 +41,7 @@ const LoginPage = () => {
           </p>
         </Link>
         <p className="text-center">
-          Don't have an account?
+          Don&#39;t have an account?
           <Link
             className="text-primary ml-2 hover:border-b-2 border-primary"
             href="/login"
