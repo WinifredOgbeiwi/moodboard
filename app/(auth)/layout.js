@@ -6,7 +6,7 @@ const AuthLayout = ({ children }) => {
       <div className="flex min-h-screen">
         <main className="w-full flex flex-col justify-center mx-10  md:justify-start md:w-[50%] md:mt-20">{children}</main>
 
-        <div className="md:flex flex-col bg-indigo-500 w-[50%] hidden">
+        <div className="md:flex flex-col bg-primary w-[50%] hidden">
           <h1
             className={
               "text-5xl font-extrabold textGradient2 sm:text-6xl md:text-7xl text-center "

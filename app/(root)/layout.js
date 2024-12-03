@@ -4,11 +4,11 @@ import Footer from "../component/landing/Footer";
 
 const HomeLayout = ({ children }) => {
   return (
-    <>
-     <Navbar/>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
       <main className="flex-1">{children}</main>
-    <Footer/>
-    </>
+      <Footer />
+    </div>
   );
 };
 

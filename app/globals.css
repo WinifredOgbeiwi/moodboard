@@ -3,12 +3,24 @@
 @tailwind utilities;
 
 .textGradient {
-    background: -webkit-linear-gradient(#4338ca, #818cf8);
+    background: -webkit-linear-gradient(#ca38aa, #f881ee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .textGradient2 {
-    background: -webkit-linear-gradient(#ffffff, #818cf8);
+    background: -webkit-linear-gradient(#ffffff, #ca38aa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.moodButton{
+box-shadow: 0 0 1px 1px #f881ee;
+}
+
+.moodButton:hover {
+    transform: translateX(3px 3px);
+    box-shadow: 3px 3px 1px 1px #f881ee;
+    color:#ff3dfe;
+}
+
+/* fa57cc */

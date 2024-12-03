@@ -19,7 +19,7 @@ const LoginPage = () => {
         onChange={(e) => {
           setUserInfo({ ...userInfo, email: e.target.value });
         }}
-        className="w-full mx-auto px-3 duration-200 hover:border-indigo-600 focus:border-indigo-800 py-2 sm:py-3 border border-solid border-indigo-400 rounded-full outline-indigo-400"
+        className="w-full mx-auto px-3 duration-200 hover:border-primary focus:border-primary py-2 sm:py-3 border border-solid border-primary rounded-lg outline-primary"
         placeholder="Email"
       />
       <input
@@ -27,21 +27,26 @@ const LoginPage = () => {
         onChange={(e) => {
           setUserInfo({ ...userInfo, password: e.target.value });
         }}
-        className="w-full  mx-auto px-3 duration-200 hover:border-indigo-600 focus:border-indigo-600 py-2 sm:py-3 border border-solid border-indigo-400 rounded-full outline-indigo-400"
+        className="w-full  mx-auto px-3 duration-200 hover:border-primary focus:border-primary py-2 sm:py-3 border border-solid border-primary rounded-lg outline-primary"
         placeholder="Password"
         type="password"
       />
 
-      <Button text="submit" full />
+      <Button text="submit" full dark/>
 
-      <div className="flex flex-col">
-        <Link className="text-indigo-700" href="/login">
-          <p className="text-center">FORGOT PASSWORD?</p>
+      <div className="flex justify-between w-full max-[900px]:flex-col max-[900px]:justify-center">
+        <Link className="text-primary" href="/login">
+          <p className="text-center hover:border-b-2 border-primary">
+            Forgot Password?
+          </p>
         </Link>
         <p className="text-center">
-          ALREADY HAVE ACCOUNT?
-          <Link className="text-indigo-700 ml-2" href="/login">
-            Login
+          Don't have an account?
+          <Link
+            className="text-primary ml-2 hover:border-b-2 border-primary"
+            href="/login"
+          >
+            Register
           </Link>
         </p>
       </div>
