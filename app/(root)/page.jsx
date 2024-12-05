@@ -4,10 +4,10 @@ import Calender from '../component/common/Calender'
 
 const HomePage = () => {
   return (
-    <>
+    <div className=''>
     <Hero />
     <Calender/>
-    </>
+    </div>
   )
 }
 

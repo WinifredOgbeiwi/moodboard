@@ -52,7 +52,7 @@ const Calender = (props) => {
                   }
                   key={dayOfWeekIndex}
                 >
-                  <p className="text-base max-[400px]:text-center w-full sm:text-xl font-bold">
+                  <p className="text-base text-center w-full sm:text-xl font-bold">
                     {dayIndex}
                   </p>
                 </div>
