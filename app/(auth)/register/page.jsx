@@ -1,6 +1,6 @@
 "use client";
 import Button from "@/app/component/common/Button";
-import { useAuth } from "@/app/context/AuthContext";
+// import { useAuth } from "@/app/context/AuthContext";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -11,7 +11,7 @@ const LoginPage = () => {
     password: "",
   });
   const [authenticating, setAuthenticating] = useState(false);
-  const { login } = useAuth();
+  // const { login } = useAuth();
   const handleSubmit = async () => {
     if (!userInfo.email || !userInfo.password || userInfo.password.length < 6) {
       return;
